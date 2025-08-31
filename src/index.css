@@ -1,0 +1,54 @@
+
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Lobster";
+    src: url('/fonts/LobsterTwo-Regular.ttf');
+}
+
+* {
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+
+:root {
+    --chip-golden: #FFC107; 
+    --chip-spicy: #E53935;
+    --chip-green: #4CAF50; 
+    --chip-brown: #795548; 
+}
+
+.bg-golden {
+    background-color: #FFC107 !important;
+}
+.bg-spicy {
+    background-color: #E53935 !important;
+}
+.bg-green {
+    background-color: #4CAF50 !important;
+}
+.bg-brown {
+    background-color: #795548 !important;
+}
+
+.text-golden {
+    color: #FFC107 !important;
+}
+.text-spicy {
+    color: #E53935 !important;
+}
+.text-green {
+    color: #4CAF50 !important;
+}
+.text-brown {
+    color: #795548 !important;
+}
+
+
