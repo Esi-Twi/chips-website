@@ -36,28 +36,6 @@ function Home() {
         </div>
       </div>
 
-      {/* --------------chips type--------------- */}
-      <div>
-        <div>
-            <div>
-                
-            </div>
-
-            <div>
-
-            </div>
-        </div>
-
-        <div>
-          <a className='chips-button'>View More</a>
-        </div>
-      </div>
-
-      {/* ----------------------------- */}
-      <div>
-
-      </div>
-
 
       {/* ----------cards-------- */}
       <div className='d-align home-cards'>
@@ -77,9 +55,53 @@ function Home() {
         </div>
       </div>
 
+      {/* --------------chips type--------------- */}
+      <div className='home-chips-type'>
+        <div>
+          <div className='home-chip d-align mb-5 gap-5'>
+            <div>
+              <img className='home-chip-img' src='../../assets/images/chips-2.jpg' />
+            </div>
+
+            <div>
+              <h1 className='fs-1 fw-bold'>Plantain Chips</h1>
+              <h3 className='fs-3 text-spicy fw-bold ff-lobster' style={{letterSpacing: '5px'}}>Ripe</h3>
+
+              <div>
+                <img src='../../assets/icons/star.png' />
+                <img src='../../assets/icons/star.png' />
+                <img src='../../assets/icons/star.png' />
+                <img src='../../assets/icons/star.png' />
+                <img src='../../assets/icons/star.png' />
+              </div>
+            </div>
+          </div>
+
+          <div>
+
+          </div>
+        </div>
+
+        <div className='d-align justify-content-end'>
+          <a className='chips-button'>View More</a>
+        </div>
+      </div>
+
+      {/* ----------------------------- */}
+      <div className='home-about'>
+        <div>
+          <h1 className='text-spicy ff-lobster'>From Chris</h1>
+          <p>Born from a love of tasty, homemade snacks, our chips are made with care, seasoned to perfection, and always fresh.<hr /> <br />Whether you’re sharing with friends or enjoying a quiet snack, our chips bring joy to every bite</p>
+        </div>
+      </div>
+
       <div className='home-cta-card'>
         <Card />
       </div>
+
+
+
+
 
       <Footer />
 
