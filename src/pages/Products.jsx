@@ -13,16 +13,17 @@ function Products() {
       {/* --------hero--------- */}
       <div className='products-hero d-align justify-content-center'>
         <div className='products-hero-inner'>
-          <h1 className='text-center ff-lobster text-golden mb-5'>Our Products</h1>
+          <h1 className='text-center ff-lobster mb-md-5 display-1 text-golden mb-5 d-md-block d-none'>Our Products</h1>
+          <h1 className='text-center ff-lobster display-2 text-golden mb-5 d-md-none'>Our Products</h1>
 
-          <div style={{marginTop: '60px'}}>
+          <div className='mx-md-0 mx-5'>
             <p className='fs-3'>We have</p>
             <div className='mx-5'>
               <p><img  src='../../assets/icons/square.png'/> Ripe</p>
               <p><img src='../../assets/icons/square.png'/> Unripe</p>
             </div>
 
-            <h4 className='ff-lobster text-green fs-1'>Let’s Get Crispy Together! Place Your Order Today.</h4>
+            <h4 className='ff-lobster text-golden fs-1'>Let’s Get Crispy Together! Place Your Order Today.</h4>
           </div>
         </div>
       </div>

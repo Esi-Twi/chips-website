@@ -210,7 +210,6 @@ header {
 }
 
 .products-hero-inner {
-    width: 70%;
     color: white;
 }
 .products-hero-inner img {
@@ -218,12 +217,10 @@ header {
 }
 .products-hero-inner h1 {
     letter-spacing: 4px;
-    font-size: 90px;
 }
 .products-hero-inner div div p {
     letter-spacing: 2px;
     font-weight: bold;
-    font-size: 22px;
 }
 
 /* --------------contact page-------------- */
@@ -232,19 +229,20 @@ header {
     display: flex;
     align-items: center;
     justify-content: start;
-    padding-left: 10%;
+    /* padding-left: 10%; */
     position: relative;
     background: url('../assets/images/background-2.jpg');
     background-size: cover;
 }
 .contact-hero h1 {
-    font-size: 70px;
+    /* font-size: 70px; */
 }
 .contact-hero p {
-    font-size: 40px;
+    /* font-size: 40px; */
 }
 .contact-inner {
-    padding: 15vh 5%;
+    /* padding: 15vh 20%; */
+    padding: 15vh 0;
 }
 .contact-info {
     border: 2px solid black;
@@ -272,9 +270,34 @@ header {
 }
 .contact-form h1 {
     font-size: 60px;
-    
+    margin-bottom: 30px;
 }
-
+.contact-form form input {
+    border: 1px solid gray; 
+    border-radius: 6px; 
+    padding: 7px 15px;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
+    width: 90%;
+    outline: none;
+}
+.contact-form form textarea {
+    width: 90%;
+    outline: none; 
+    border: 1px solid gray; 
+    border-radius: 6px;
+    padding: 7px 15px;
+    display: block;
+}
+.contact-form form button {
+    border: none;
+    margin-top: 30px;
+}
+.map-container {
+    height: 80vh;
+    padding: 0 0 70px 0;
+}
 
 
 /* --------------footer-------------- */
@@ -297,16 +320,15 @@ footer {
 }
 
 .footer-inner {
-    padding: 60px 10% 40px 10%;
+    padding: 60px 0 40px 0;
 }
 
 .footer-contact p {
     font-weight: bold;
-    font-size: 18px;
+    margin: 5px 0;
 }
 
 .footer-contact h1 {
     display: inline-block;
-    font-size: 22px;
-    margin-left: 10px;
+    margin: 0 0 0 10px;
 }

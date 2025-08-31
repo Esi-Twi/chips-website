@@ -90,7 +90,7 @@ function Home() {
       {/* ----------------------------- */}
       <div className='home-about'>
         <div>
-          <h1 className='text-spicy ff-lobster'>From Chris</h1>
+          <h1 className='text-spicy ff-lobster'>From Christabel</h1>
           <p>Born from a love of tasty, homemade snacks, our chips are made with care, seasoned to perfection, and always fresh.<hr /> <br />Whether you’re sharing with friends or enjoying a quiet snack, our chips bring joy to every bite</p>
         </div>
       </div>
