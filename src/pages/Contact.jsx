@@ -8,9 +8,12 @@ function Contact() {
   return (
     <div>
       <Header />
+
+      {/* ----------contact hero----------------- */}
+      <div></div>
+
       <Footer />
-
-
+  
     </div>
   )
 }
