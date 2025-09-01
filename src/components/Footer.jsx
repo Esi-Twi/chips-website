@@ -18,7 +18,7 @@ function Footer() {
                 </ul>
             </nav>
 
-            <div className='col-md-5 footer-contact'>
+            <div className='col-md-5 footer-contact my-md-0 my-2'>
                 <p className='fs-0'>Phone: <h1 className='fs-5'>054 463 6828</h1></p>
                 <p className='fs-0'>Email: <h1 className='fs-5'>christabelchips@gmail.com</h1></p>
                 <p className='fs-0'>Location: <h1 className='fs-5'>TF Hostel</h1></p>
