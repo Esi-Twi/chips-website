@@ -14,7 +14,7 @@ function Products() {
       <div className='products-hero d-align justify-content-center'>
         <div className='products-hero-inner'>
           <h1 className='text-center ff-lobster mb-md-5 display-1 text-golden mb-5 d-md-block d-none'>Our Products</h1>
-          <h1 className='text-center ff-lobster display-2 text-golden mb-5 d-md-none'>Our Products</h1>
+          <h1 className='text-center ff-lobster display-1 text-golden mb-5 d-md-none'>Our Products</h1>
 
           <div className='mx-md-0 mx-5'>
             <p className='fs-3'>We have</p>

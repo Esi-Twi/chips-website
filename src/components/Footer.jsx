@@ -25,7 +25,7 @@ function Footer() {
             </div>
         </div>
 
-        <p className='footer-rights'>All Rights Reserved | <a href=''>Esi Twi Tawiah</a></p>
+        <p className='footer-rights'>All Rights Reserved | <a target='_blank' href='http://react-portfolio-phi-ebon.vercel.app/'>Esi Twi Tawiah</a></p>
     </footer>
   )
 }

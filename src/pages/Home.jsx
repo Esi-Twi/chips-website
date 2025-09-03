@@ -96,7 +96,11 @@ function Home() {
           <Slider {...settings2}>
             {/* -------ripe----- */}
             <div className='home-chip d-flex align-items-center f-col gap-4'>
-              <div className='w-50'>
+              <div className='d-md-block d-none w-50'>
+                <img className='home-chip-img' src='../../assets/images/chips-2.jpg' />
+              </div>
+
+               <div className='d-md-none d-block w-100'>
                 <img className='home-chip-img' src='../../assets/images/chips-2.jpg' />
               </div>
 
@@ -116,7 +120,11 @@ function Home() {
 
             {/* -------unripe----- */}
             <div className='home-chip d-flex align-items-center gap-4'>
-              <div className='w-50'>
+              <div className='d-md-block d-none w-50'>
+                <img className='home-chip-img' src='../../assets/images/chips-3.jpg' />
+              </div>
+
+              <div className='d-md-none d-block w-100'>
                 <img className='home-chip-img' src='../../assets/images/chips-3.jpg' />
               </div>
 
