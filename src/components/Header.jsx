@@ -36,16 +36,16 @@ function Header() {
 
       <header className='bg-golden px-md-5 px-3 d-flex justify-content-between align-items-center py-md-2 py-3'>
         <h1 className="mb-0">
-          <a href='/' className='ff-lobster text-decoration-none'>Chips 'n' Munch</a>
+          <a href='/' className='ff-lobster fs-3 text-decoration-none'>Chips 'n' Munch</a>
         </h1>
         
         {/* Desktop Navigation */}
         <nav className="d-none d-lg-block">
           <ul className='d-flex align-items-center gap-5 mt-2 mb-0 list-unstyled'>
-            <li><NavLink to='/' className='fw-bold header-navlink text-decoration-none'>Home</NavLink></li>
-            <li><NavLink to='/products' className='fw-bold header-navlink text-decoration-none'>Products</NavLink></li>
+            <li><NavLink to='/' className={({ isActive }) =>`fw-bold header-navlink text-decoration-none ${isActive ? "active" : ""}`}>Home</NavLink></li>
+            <li><NavLink to='/products' className={({ isActive }) =>`fw-bold header-navlink text-decoration-none ${isActive ? "active" : ""}`}>Products</NavLink></li>
             <li className='header-contact bg-white rounded'>
-              <NavLink to='/contact' className='fw-bold fs-6 text-decoration-none px-3 py-2 d-block'>Contact</NavLink>
+              <NavLink to='/contact' className={({ isActive }) =>`fw-bold text-decoration-none contact-button d-block ${isActive ? "active" : ""}`}>Contact</NavLink>
             </li>
           </ul>
         </nav>

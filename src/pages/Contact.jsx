@@ -3,6 +3,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
+//contact should be to TF
 
 function Contact() {
   return (

@@ -101,12 +101,21 @@ header {
 }
 
 .header-navlink {
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .header-contact {
     padding: 7px 30px;
     border-radius: 4px;
+}
+.active {
+    color: green; 
+    text-decoration: underline;
+}
+.contact-button {
+    padding: 1px 15px;
+    font-size: 14px;
 }
 
 
@@ -311,6 +320,7 @@ header {
     position: relative;
     background: url('../assets/images/background-2.jpg');
     background-size: cover;
+    width: 100%;
 }
 
 .contact-hero h1 {
